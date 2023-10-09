@@ -1,0 +1,348 @@
+/* font-family: Hellix, I've installed for you */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+h1{
+  font-size: 64px;
+  line-height: 75px;
+}
+h2{
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 20px;
+}
+h5{
+  font-size: 24px;
+  line-height: 29px;
+  margin-right: 50px;
+}
+h6{
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+form{
+  margin-bottom: 32px;
+}
+input[type="email"] {
+  width: 250px;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  background: url("https://assets.codepen.io/6060109/icon-send.png") white no-repeat 94% 50%;
+}
+.solid {
+  border-top: 2px solid #bbb;
+}
+h1, h2, h6, .max-strong{
+  font-weight: 500;
+}
+.max-strong, .third-footer-cont, .center-btn, .links-list, .copyright, #text-container-1, #text-container-3{
+  text-align: center;
+}
+.all-content-container{
+  max-width: 500px;
+  margin: auto;
+  background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
+}
+.container, .footer, .max-strong, button, input, input::placeholder{
+  font-family: 'Hellix';
+  font-style: normal; /*Selects a font that is classified as normal within a font-family*/
+  color: #111235;
+}
+.header{
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  margin-bottom: 40px;
+  padding: 16px 0;
+}
+.max-strong{
+  font-size: 36px;
+  line-height: 43px;
+}
+.quick-links{
+  display: none;
+}
+.flex-image{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  margin-bottom: 120px;
+}
+.container img{
+  width: 415px;
+  display: block;
+  margin: auto;
+}
+#text-container-4 > h2{
+  margin: 50px 0 40px;
+}
+.inner-container{
+  margin: 0 16px;
+}
+.cont-3-gradient{
+  background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+  padding-top: 80px;
+}
+.small-boxes{
+  padding: 50px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.blue-box{
+  background: #E4F0FF;
+}
+.purple-box{
+  background: rgba(114, 122, 239, 0.1);
+}
+.btn{
+  font-size: 18px;
+  line-height: 22px;
+  background: #4B5092;
+  border-radius: 35px;
+  color: #ffffff;
+  height: 59px;
+  width: 252px;
+  margin: 35px 62px 0;
+  border: none;
+  transition: .3s;
+}
+.hide-desktop-btn{
+  display: none;
+}
+.shadow-btn{
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.white-btn{
+  background: #FFFFFF;
+  color: #436BAA;
+}
+.btn:hover{
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+}
+.secondary-bold{
+  font-weight: 600;
+}
+.footer{
+  padding-bottom: 25%;
+}
+.footer-max-strong{
+  margin: 50px 0;
+}
+.icon-circle{
+  background-color:rgba(128,173,245,0.12);
+  height: 32px;
+  width: 32px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h6-margin{
+  margin: 50px 0 16px;
+}
+.links{
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+.copyright{
+  margin-top: 15%;
+}
+.copyright-font-size{
+  font-size: 14px;
+}
+#bold{
+  font-weight: 700;
+}
+#text-container-2{
+  background: #F2F8FF;
+  padding: 50px 0;
+}
+#social-media{
+  width: 176px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .all-content-container{
+    max-width: 1500px;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  .container img{
+    margin: 0;
+  }
+  .header{
+    box-shadow: none;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .quick-links{
+    font-size: 16px;
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-image{
+    order: 2;
+  }
+  .flex-image-3{
+    order: 1;
+  }
+  .flex-image-4{
+    order: 2;
+  }
+  .max-strong, .footer-inner-container, #text-container-1,#text-container-3, .center-btn{
+    text-align: left;
+  }
+  .btn{
+    margin: 35px 0;
+  }
+  .shadow-btn{
+    border: none;
+    box-shadow: none;
+  }
+  .container-1{
+    display: flex;
+    justify-content: space-around;
+  }
+  .container-2{
+    display: flex;
+    justify-content: space-around;
+  }
+  .cont-3-gradient{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  .container-4{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .inner-container-4{
+    width: 67%;
+    display: flex;
+    justify-content: center;
+  }
+  .mobile-get-now{
+    display: none;
+  }
+  .desktop-get-now{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+  }
+  .hide-desktop-btn{
+    display: inline-block; /* in order to show this button */
+  }
+  .blue-box{
+    width: 49.3%;
+  }
+  .purple-box{
+    width: 49.3%;
+  }
+  .solid{
+    margin: 0 90px;
+  }
+  .footer{
+    padding-bottom: 0;
+    margin: 0 90px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .links-list {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 250px;
+    margin-top: 60px;
+    margin-left: 5%;
+    padding-bottom: 5%;
+  }
+  .links-list > div {
+    width: 90px;
+    flex-grow: 1;
+  }
+  .home-link{
+    order: 1;
+  }
+  .our-trainings-link{
+    order: 2;
+  }
+  .about-us-link{
+    order: 3;
+  }
+  .price-link{
+    order: 4;
+  }
+  .contact-link{
+    order: 5;
+  }
+  .faq-link{
+    order: 6;
+  }
+  .third-footer-cont{
+    margin-right: 5%;
+  }
+  .third-footer-cont > form{
+    margin-top: 10%;
+  }
+  .copyright{
+    position: absolute;
+    bottom: 95px;
+  }
+  #text-container-1{
+    order: 1;
+    width: 40%;
+  }
+  #text-container-1  p {
+    margin-right: 110px;
+  }
+  #text-container-2{
+    border-radius: 50px;
+    width: 40%;
+    padding-left: 45px;
+    padding-right: 55px;
+  }
+  #text-container-3{
+    order: 2;
+    width: 35%;
+  }
+  #text-container-4{
+    width: 86%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #social-media{
+    display: none;
+  }
+}
+/* finish working on links, need to get those to diplay correctly. Look at links-list & links-list > div */
