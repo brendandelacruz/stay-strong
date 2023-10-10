@@ -1,348 +1,355 @@
-/* font-family: Hellix, I've installed for you */
-*{
+* {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
-body{
-  width: 100%;
-  height: 100vh;
-}
-h1{
-  font-size: 64px;
-  line-height: 75px;
-}
-h2{
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 58px;
-  margin-bottom: 20px;
-}
-h5{
-  font-size: 24px;
-  line-height: 29px;
-  margin-right: 50px;
-}
-h6{
-  font-size: 18px;
-  line-height: 24px;
-  margin-bottom: 30px;
-}
-p{
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  margin-top: 20px;
-}
-form{
-  margin-bottom: 32px;
-}
-input[type="email"] {
-  width: 250px;
-  padding: 10px;
-  border: none;
-  border-radius: 7px;
-  background: url("https://assets.codepen.io/6060109/icon-send.png") white no-repeat 94% 50%;
-}
-.solid {
-  border-top: 2px solid #bbb;
-}
-h1, h2, h6, .max-strong{
-  font-weight: 500;
-}
-.max-strong, .third-footer-cont, .center-btn, .links-list, .copyright, #text-container-1, #text-container-3{
-  text-align: center;
-}
-.all-content-container{
-  max-width: 500px;
-  margin: auto;
+
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  font-family: cursive;
   background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
 }
-.container, .footer, .max-strong, button, input, input::placeholder{
-  font-family: 'Hellix';
-  font-style: normal; /*Selects a font that is classified as normal within a font-family*/
-  color: #111235;
-}
-.header{
-  background: #FFFFFF;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
-  margin-bottom: 40px;
-  padding: 16px 0;
-}
-.max-strong{
-  font-size: 36px;
-  line-height: 43px;
-}
-.quick-links{
-  display: none;
-}
-.flex-image{
-  display: flex;
-  justify-content: center;
-}
-.container{
-  margin-bottom: 120px;
-}
-.container img{
-  width: 415px;
-  display: block;
+
+.constrain {
+  max-width: 425px;
   margin: auto;
 }
-#text-container-4 > h2{
-  margin: 50px 0 40px;
+
+h1, h2, h3, h6 {
+  font-weight: 500;
+  color: #111235;
 }
-.inner-container{
-  margin: 0 16px;
+
+h1 {
+  font-size: 64px;
+  line-height: 75px;
+  margin: 20px 0;
 }
-.cont-3-gradient{
-  background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
-  padding-top: 80px;
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 15px;
 }
-.small-boxes{
-  padding: 50px;
-  border-radius: 30px;
-  margin-bottom: 20px;
+
+h3 {
+  font-size: 32px;
 }
-.blue-box{
-  background: #E4F0FF;
+
+h5 {
+  color: #111235;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+  margin-bottom: 15px;
 }
-.purple-box{
-  background: rgba(114, 122, 239, 0.1);
-}
-.btn{
+
+h6 {
   font-size: 18px;
-  line-height: 22px;
-  background: #4B5092;
-  border-radius: 35px;
-  color: #ffffff;
-  height: 59px;
-  width: 252px;
-  margin: 35px 62px 0;
+  margin: 0 0 40px;
+}
+
+p {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+ul {
+  padding-left: 0;
+  padding: 30px 0;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+input[type="text"] {
+  width: 55%;
   border: none;
-  transition: .3s;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 400;
+  font-family: cursive;
+  background: url("https://assets.codepen.io/6060109/icon-send.png") white 95% 50% no-repeat;
 }
-.hide-desktop-btn{
-  display: none;
+
+input::placeholder {
+   color: #111235;
 }
-.shadow-btn{
-  border: 1px solid #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+.header-bold {
+  font-weight: 700;
 }
-.white-btn{
-  background: #FFFFFF;
+
+.top-bar {
+  height: 75px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-section-container {
+  padding: 40px 15px;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.content-section-container img {
+  width: 100%;
+}
+
+.btn {
+  text-decoration: none;
+  display: block;
+  width: 225px;
+  padding: 15px 0;
+  border-radius: 50px;
+  margin: 30px auto;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #4B5092;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: white;
   color: #436BAA;
 }
-.btn:hover{
-  cursor: pointer;
-  opacity: .8;
-  transition: .3s;
+
+.blue-bg {
+  background-color: #F2F8FF;
+  width: 100%;
 }
-.secondary-bold{
-  font-weight: 600;
+
+.gradient-blue-bg {
+  background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
 }
-.footer{
-  padding-bottom: 25%;
+
+.gradient-blue-bg img {
+  margin-bottom: -5px;
 }
-.footer-max-strong{
-  margin: 50px 0;
+
+.panel {
+  border-radius: 30px;
+  padding: 60px 40px;
+  margin-bottom: 20px;
 }
-.icon-circle{
-  background-color:rgba(128,173,245,0.12);
+
+.panel h5 {
+  width: 85%;
+}
+
+.panel-blue {
+  background: #E4F0FF;
+}
+
+.panel-purple {
+  background: rgba(114, 122, 239, 0.1);
+}
+
+.footer-icons {
+  margin: 25px auto;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-circle {
+  background-color: rgba(128, 173, 245, .2);
   height: 32px;
   width: 32px;
-  border-radius: 20px;
+  border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.h6-margin{
-  margin: 50px 0 16px;
+
+.icon-circle > img {
+  width: 55%;
 }
-.links{
-  font-weight: 500;
-  margin-bottom: 35px;
+
+#copyright {
+  margin: 60px 0;
+  text-align: center;
 }
-.copyright{
-  margin-top: 15%;
+
+/* Modifier classes -- single style */
+.bp-100 {
+  padding-bottom: 100px;
 }
-.copyright-font-size{
-  font-size: 14px;
+
+.tp-80 {
+  padding-top: 80px;
 }
-#bold{
-  font-weight: 700;
+
+.bm-40 {
+  margin-bottom: 40px;
 }
-#text-container-2{
-  background: #F2F8FF;
-  padding: 50px 0;
+
+.bm-15 {
+  margin-bottom: 15px;
 }
-#social-media{
-  width: 176px;
-  display: flex;
-  justify-content: space-around;
-  margin: auto;
+
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+
+.top-menu {
+  display: none; 
+}
+
+.desktop-only {
+  display: none; 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .all-content-container{
+  .constrain {
     max-width: 1500px;
   }
-  .container{
+  .outer-container {
+    margin: 0 10%;
+  }
+  .top-bar {
+    box-shadow: none;
     display: flex;
+    justify-content: space-between;
+  }
+  .top-menu {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
     align-items: center;
   }
-  .container img{
-    margin: 0;
-  }
-  .header{
-    box-shadow: none;
-    width: 80%;
-    margin: auto;
+  .hero-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
   }
-  .quick-links{
-    font-size: 16px;
-    width: 380px;
-    display: flex;
-    justify-content: space-between;
+  .hero-section img {
+    width: 45%;
   }
-  .flex-image{
-    order: 2;
-  }
-  .flex-image-3{
-    order: 1;
-  }
-  .flex-image-4{
-    order: 2;
-  }
-  .max-strong, .footer-inner-container, #text-container-1,#text-container-3, .center-btn{
+  .hero-text {
+    width: 50%;
     text-align: left;
   }
-  .btn{
+  .btn {
     margin: 35px 0;
   }
-  .shadow-btn{
-    border: none;
-    box-shadow: none;
-  }
-  .container-1{
+  .simple-flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;    
+    align-items: center;
   }
-  .container-2{
-    display: flex;
-    justify-content: space-around;
+  .simple-flex > * {
+    margin: 0;
   }
-  .cont-3-gradient{
+  .left-to-right {
     display: flex;
-    justify-content: space-evenly;
-    padding: 0;
+    justify-content: space-between;
+    margin-bottom: 60px;
   }
-  .container-4{
-    display: flex;
-    flex-wrap: wrap;
+  .workout-img-2 {
+    width: 45%
   }
-  .inner-container-4{
-    width: 67%;
+  .blue-bg {
+    width: 45%;
     display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 0 30px;
+  }
+  .gradient-blue-bg {
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
   }
-  .mobile-get-now{
-    display: none;
-  }
-  .desktop-get-now{
-    width: 87%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 80px;
-  }
-  .hide-desktop-btn{
-    display: inline-block; /* in order to show this button */
-  }
-  .blue-box{
-    width: 49.3%;
-  }
-  .purple-box{
-    width: 49.3%;
-  }
-  .solid{
-    margin: 0 90px;
-  }
-  .footer{
-    padding-bottom: 0;
-    margin: 0 90px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-  }
-  .links-list {
+  .trainer-text {
     text-align: left;
+    width: 30%;
+    margin-left: 40px;
+  }
+  .gradient-blue-bg img {
+    margin: 0;
+    width: 450px;
+  }
+  
+  .panels-img-container {
     display: flex;
-    flex-wrap: wrap;
-    flex-basis: 250px;
-    margin-top: 60px;
-    margin-left: 5%;
-    padding-bottom: 5%;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 50px;
   }
-  .links-list > div {
-    width: 90px;
-    flex-grow: 1;
+  
+  .panels-img-container img {
+    width: 30%;
   }
-  .home-link{
-    order: 1;
-  }
-  .our-trainings-link{
-    order: 2;
-  }
-  .about-us-link{
-    order: 3;
-  }
-  .price-link{
-    order: 4;
-  }
-  .contact-link{
-    order: 5;
-  }
-  .faq-link{
-    order: 6;
-  }
-  .third-footer-cont{
-    margin-right: 5%;
-  }
-  .third-footer-cont > form{
-    margin-top: 10%;
-  }
-  .copyright{
-    position: absolute;
-    bottom: 95px;
-  }
-  #text-container-1{
-    order: 1;
-    width: 40%;
-  }
-  #text-container-1  p {
-    margin-right: 110px;
-  }
-  #text-container-2{
-    border-radius: 50px;
-    width: 40%;
-    padding-left: 45px;
-    padding-right: 55px;
-  }
-  #text-container-3{
-    order: 2;
-    width: 35%;
-  }
-  #text-container-4{
-    width: 86%;
+  
+  .panels {
     display: flex;
-    flex-wrap: wrap;
+    width: 70%;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
-  #social-media{
+  .panel {
+    width: 49%;
+    box-sizing: border-box;
+  }
+  
+  .mobile-only {
     display: none;
   }
+  
+  .desktop-only {
+    display: block;  
+  }
+  
+  footer.content-section-container {
+    display: flex;
+    padding: 40px 0 0;
+  }
+  .footer-icons {
+    display: none;
+  }
+  
+  footer h3 {
+    width: 30%;
+    text-align: left;
+  }
+  footer ul {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    padding: 0;
+    padding-right: 10%;
+  }
+  footer li {
+    padding-top: 15px;
+  }
+  footer .stay-up-to-date {
+    padding-top: 10px;
+    width: 30%;
+    text-align: left;
+  }
+  
+  footer .stay-up-to-date input[type="text"] {
+    width: 100%; 
+    box-sizing: border-box;
+  }
+  
+  #copyright {
+    text-align: left;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
 }
-/* finish working on links, need to get those to diplay correctly. Look at links-list & links-list > div */
