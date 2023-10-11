@@ -5,7 +5,7 @@
 body {
   min-width: 100%;
   min-height: 100vh;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'Comic Sans MS', sans-serif;
   background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
 }
 
@@ -69,7 +69,7 @@ input[type="text"] {
   border-radius: 5px;
   padding: 10px;
   font-weight: 400;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', sans-serif;
   background: url("https://assets.codepen.io/6060109/icon-send.png") white 95% 50% no-repeat;
 }
 
